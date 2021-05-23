@@ -1,0 +1,15 @@
+Figure4 in the python notebook shows each POI group which is scaled in the range of -10 to 10.
+
+Assumption: 
+- POI1 and POI2 have the same latitude and longitude so both are merged and considered as POI1.
+- POI1 and POI4 have significant outliers which may affect the results such as area and density so all outliers are removed.
+- All the duplicate/identical data has been removed based on geoinfo and time.
+
+Hypothesis:
+POI1 has the highest density because it has more requests and a large area compare to the other two POIs.
+
+Testing:
+Question 3 asks for calculating density and radius which consider as a testing procedure and from that I can support the hypothesis.
+
+Conclusion:
+Given the testing results, we can say that the hypothesis is true and POI1 has the highest density.
